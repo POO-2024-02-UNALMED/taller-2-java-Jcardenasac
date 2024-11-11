@@ -7,7 +7,7 @@ public class Auto {
     String marca;
     Motor motor;
     Integer registro;
-    static int cantidadCreados;//int o string?
+    static int cantidadCreados;
 
     public int cantidadAsientos() {
         int numAsientos = 0;
