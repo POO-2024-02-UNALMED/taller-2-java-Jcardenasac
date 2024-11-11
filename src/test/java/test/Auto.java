@@ -27,6 +27,6 @@ public class Auto {
 				}
 		}
 	}
-		return "Auto original";
+	return "Auto original";
 }
 }
