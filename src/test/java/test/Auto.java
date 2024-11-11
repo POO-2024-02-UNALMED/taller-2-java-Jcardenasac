@@ -22,8 +22,8 @@ public class Auto {
 		}
 		else{
 			for(int i=0;i<this.asientos.length; i++) {
-				if(asientos[i].registro != this.registro) {
-					return "Las piezas del auto no son originales";
+				if (asientos[i] != null && asientos[i].registro != this.registro) {
+                    return "Las piezas del auto no son originales";
 				}
 		}
 	}
